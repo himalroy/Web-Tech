@@ -1,0 +1,32 @@
+.sidebar {
+    width: 20%;
+    background-color:lightgray; ;
+}
+
+
+.main {
+    width: 50%;
+    background-color: skyblue;
+}
+
+
+.advertise {
+    width: 20%;
+    background-color: lightgreen;
+}
+h1{
+    text-align: center;
+}
+.sidebar,
+.main,
+.advertise {
+    display: inline-block;
+   
+   vertical-align: top;
+    
+    padding: 16px;
+    border: 2px solid black;
+    min-height: 250px;
+
+    
+}

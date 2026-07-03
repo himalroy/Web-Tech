@@ -1,0 +1,22 @@
+.head {
+    position: sticky;
+    top: 0;
+    background-color:skyblue;
+   
+    padding:  20px;
+
+    border-bottom: 5px solid orange;
+    
+}
+.content {
+    margin-top: 50px;
+    padding: 30px;
+  
+    height: 1500px;
+}
+.head nav a {
+    
+    
+    margin-right: 20px;
+    font-weight: bold;
+}

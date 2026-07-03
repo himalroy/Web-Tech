@@ -1,0 +1,32 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    font-size: 0; /* Removes inline-block spacing */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+/* Common Box Styling */
+.sidebar,
+.main-content,
+.advertisement {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 16px; /* Restore text size */
+    padding: 15px;
+    border: 2px solid #333;
+    margin: 0;
+    min-height: 300px;
+}
+
